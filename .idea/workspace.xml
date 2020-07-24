@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f8e4a84-51ee-4844-bfc4-28b623d0ba3b" name="Default Changelist" comment="" />
+    <list default="true" id="8f8e4a84-51ee-4844-bfc4-28b623d0ba3b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1f49jjnoVO5DxudswZ9rXYQHg8x" />
   <component name="ProjectViewState">
@@ -29,5 +38,11 @@
       <updated>1595466634740</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="652" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1595480443038">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="652" y="344" key="com.intellij.ide.util.TipDialog/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1595480443038" />
   </component>
 </project>

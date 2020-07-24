@@ -1,16 +1,13 @@
 import React from 'react';
-import Header from "./components/Header"
-
+import {BrowserRouter} from 'react-router-dom';
 import './App.css';
-
-import './App.css'
+import RouterApp from './RouterApp';
 
 function App() {
   return (
-    <div className="App">
-      <Header cityName="Seoul"/>
-      <p>Hello World!</p>
-    </div>
+    <BrowserRouter>
+      <RouterApp />
+    </BrowserRouter>
   );
 }
 
