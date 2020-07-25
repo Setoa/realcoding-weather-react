@@ -5,10 +5,12 @@ import {withRouter} from 'react-router';
 const CityList = (props) => {
     const {cities, match} = props;
     const {url} = match;
-    console.log(url);
+    const uniqueCities = cities.filter(
+        (item, index) => cities.indexOf(item)===index
+    );
     return (
         <ul>
-            {cities.map((item)=>{
+            {uniqueCities.map((item)=>{
                 return (
                     <li key={item}>
                         <Link to={`${url}/${item}`}>{item}</Link>

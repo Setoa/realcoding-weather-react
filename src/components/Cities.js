@@ -9,10 +9,7 @@ class Cities extends React.Component {
         cities: [],
     };
     componentDidMount() {
-        //console.log("City component");
-        // console.log(this.state.cities);
         const { cities } = this.state;
-        // console.log("Cities : ", cities);
         const citiesData = fetch(API_CITIES)
             .then((res) => res.json())
             .then((data) => {
@@ -20,7 +17,6 @@ class Cities extends React.Component {
                     cities: data,
                 });
             });
-            //console.log(cities, citiesData);
     }
     render() {
         const { match } = this.props;
